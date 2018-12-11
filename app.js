@@ -37,7 +37,7 @@ const fs = require('./fs');archivos que nosotros escribimos*/
 //---------rehaciendo el codigo parta que funciones el export
  
 const argv = require('./config/yargs').argv;
-
+const colors = require('colors');
 
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar.js');
 
